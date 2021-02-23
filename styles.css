@@ -1,0 +1,24 @@
+* {
+  color: #fafafa !important;
+}
+body {
+  background-image: url("./img/background.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100% !important; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.navbar {
+  background-color: rgba(41, 41, 41, 0.8) !important;
+}
+.test {
+  margin-top: 30vh !important;
+}
+h2 {
+  color: white !important;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
