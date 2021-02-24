@@ -13,7 +13,7 @@ body {
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 .navbar {
-  background-color: rgba(41, 41, 41, 0.8) !important;
+  background-color: rgba(41, 41, 41, 0.8);
   font-weight: bold !important;
 }
 .test {
@@ -31,6 +31,9 @@ h2 {
   display: flex;
   justify-content: space-evenly;
 }
+.contacts-row {
+  border-bottom: 1px solid #fafafa;
+}
 #myBtn {
   display: none;
   position: fixed;
@@ -40,16 +43,16 @@ h2 {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #fafafa;
-  color: black !important;
+  /* background-color: #fafafa;
+  color: black !important; */
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
 }
 
-#myBtn:hover {
+/* #myBtn:hover {
   background-color: #555;
-}
+} */
 @media only screen and (max-width: 700px) {
   .contacts {
     display: flex;
