@@ -164,8 +164,9 @@
           <h2>Kontakti</h2>
           <div class="row mt-5">
             <ul class="contacts">
-              <li>Mūsu tālrunis: +371 20062669</li>
-              <li>Mūsu adrese: Musu adrsse</li>
+              <li>Tālrunis: +371 20062669</li>
+              <li>E-pasts: Info@valentina.pizza</li>
+              <li>Adrese: Valentīna iela 15, Āgenskalns, Rīga</li>
             </ul>
           </div>
         </div>
@@ -187,6 +188,8 @@
         ></script>
       </div>
       <!--// Contacts -->
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </div>
     <!--// Container -->
     <!-- Optional JavaScript; choose one of the two! -->
@@ -203,5 +206,31 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     -->
+    <script>
+      //Get the button
+      const mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
   </body>
 </html>
