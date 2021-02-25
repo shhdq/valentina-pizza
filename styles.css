@@ -43,6 +43,16 @@ h2 {
 .contacts-row {
   border-bottom: 1px solid #fafafa;
 }
+.bold {
+  font-weight: bold;
+}
+.fadedText{
+  opacity: 0.8;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
 #myBtn {
   display: none;
   position: fixed;
