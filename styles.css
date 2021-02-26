@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap");
 * {
   color: #fafafa !important;
 }
@@ -46,11 +47,10 @@ h2 {
 .bold {
   font-weight: bold;
 }
-.fadedText{
+.fadedText {
   opacity: 0.8;
 }
 .center {
-  
   text-align: center;
 }
 #myBtn {
@@ -68,7 +68,11 @@ h2 {
   padding: 15px;
   border-radius: 4px;
 }
-
+.pizza-name {
+  font-family: "Sedgwick Ave", cursive;
+  letter-spacing: 3px;
+  color: #ff7373 !important;
+}
 /* #myBtn:hover {
   background-color: #555;
 } */
