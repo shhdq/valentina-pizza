@@ -43,8 +43,8 @@
                   tabindex="-1"
                   aria-disabled="true"
                   ><i
-                    >Pasūti ar *bezmaksas piegādi 20062669, jeb Bolt/ Wolt
-                    (ikoniņas)</i
+                  style="color: #ff7373 !important; font-size: 2rem;"
+                    >Pasūti: +371 20062669</i
                   ></a
                 >
               </li>
@@ -59,10 +59,10 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="menuBtn" href="#menu">Menu</a>
+                <a class="nav-link" href="#menu">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="menuBtn" href="#">Piegāde</a>
+                <a class="nav-link" id="menuBtn" href="#piegade">Piegāde</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#kontakti">Kontakti</a>
@@ -885,18 +885,6 @@
               <td></td>
               <td></td>
             </tr>
-
-
-
-
-        
-
-
-
-
-
-
-
           </tbody>
         </table>
         <br />
@@ -960,13 +948,20 @@
               <td>Coca Cola 2l</td>
               <td>&euro;2.8</td>
             </tr>
-
-
-            
           </tbody>
         </table>
       </div>
       <!--// Menu-->
+
+      <div class="container delivery" id="piegade">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <p>Pasūtījumiem virs 10€ - piegāde līdz 2km par <b style="letter-spacing: 3px; color: #ff7373 !important">BRĪVU!</b></p>
+            <p>Pasūtījumiem virs 20€ - piegāde līdz 10km par <b style="letter-spacing: 3px; color: #ff7373 !important">BRĪVU!</b></p>
+          </div>
+        </div>
+      </div>
+      <!--// Delivery -->
 
       <div class="container mt-5" id="kontakti">
         <div class="row contacts-row">
@@ -1032,14 +1027,10 @@
       //Get the button
       const mybutton = document.getElementById("myBtn");
       const navbar = document.getElementById("navbar");
-      const menuBtn = document.getElementById("menuBtn");
-      const menu = document.getElementById("menu");
+      // const menuBtn = document.getElementById("menuBtn");
+      // const piegade = document.getElementById("piegade");
 
-      // menuBtn.addEventListener("click", () => {
-      //   menu.style.paddingTop = "25%";
-      //   // menu.style.paddingBottom = "15%";
-      // });
-
+    
       // When the user scrolls down 20px from the top of the document, show the button
       window.onscroll = function () {
         scrollFunction();

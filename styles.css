@@ -73,6 +73,10 @@ h2 {
   letter-spacing: 3px;
   color: #ff7373 !important;
 }
+.delivery {
+  background-color: rgba(39, 39, 39, 0.8);
+  padding: 3rem;
+}
 /* #myBtn:hover {
   background-color: #555;
 } */
